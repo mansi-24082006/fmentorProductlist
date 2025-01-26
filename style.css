@@ -118,6 +118,9 @@ body {
     background-color: rgb(230, 39, 39);
     color: white;
 }
+cart{
+    height: auto;
+}
 .cart h2 {
     margin-bottom: 20px;
 }
