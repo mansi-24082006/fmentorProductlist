@@ -49,6 +49,7 @@ body {
     text-align: center;
     padding: 10px 70px;
 }
+
 .cart p{
     margin:0;
     padding: 0;
@@ -59,6 +60,8 @@ body {
     border-radius: 8px;
     padding: 5px;
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 .item img {
     width: 100%;
@@ -67,7 +70,7 @@ body {
     cursor: pointer;
 }
 .item img:hover{
-    border: 1px solid rgb(176, 57, 57);
+    border: 1px solid rgb(57, 56, 56);
 }
 .item h3 {
     font-size: 15px;
@@ -89,7 +92,7 @@ body {
 .item button{
     background-color: white;
     color: black;
-    padding: 10px 25px;
+    padding: 15px 30px;
     border-radius: 50px;
     cursor: pointer;
     border: 1px solid rgb(138, 135, 135);
@@ -105,10 +108,15 @@ body {
     justify-content: center;
 }
 .item svg{
-    padding: 5px 5px;
+    padding: 0px 0px;
+    justify-content: center;
+    align-items: center;
+
 }
 .item button:hover {
-    border: 1px solid rgb(176, 57, 57);
+    border: 1px solid rgb(156, 152, 152);
+    background-color: rgb(230, 39, 39);
+    color: white;
 }
 .cart h2 {
     margin-bottom: 20px;
